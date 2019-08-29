@@ -1,4 +1,4 @@
-# 🧳Jasper
+# 🧳 Jasper
 
 [![CircleCI](https://circleci.com/gh/artichoke/jasper.svg?style=svg)](https://circleci.com/gh/artichoke/jasper)
 [![Discord](https://img.shields.io/discord/607683947496734760)](https://discord.gg/QCe2tp2)
