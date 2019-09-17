@@ -3,13 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Artichoke Jasper",
-  "keywords": [
-    "programming language",
-    "scripting",
-    "ruby",
-    "rust",
-    "wasm"
-  ],
+  "keywords": ["programming language", "scripting", "ruby", "rust", "wasm"],
   "homepage": "https://www.artichoke-ruby.org",
   "bugs": "https://github.com/artichoke/jasper/issues",
   "license": "MIT",
@@ -51,9 +45,7 @@
     "prettier-eslint": "^9.0.0"
   },
   "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
+    "presets": ["@babel/preset-env"]
   },
   "eslintConfig": {
     "env": {
@@ -63,11 +55,7 @@
       "node": true
     },
     "parser": "babel-eslint",
-    "plugins": [
-      "html",
-      "import",
-      "prettier"
-    ],
+    "plugins": ["html", "import", "prettier"],
     "extends": [
       "airbnb",
       "prettier",
