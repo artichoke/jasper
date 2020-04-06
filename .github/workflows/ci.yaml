@@ -1,0 +1,25 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: "0 0 * * TUE"
+jobs:
+  text:
+    name: Lint and format text
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Lint and check formatting with prettier
+        run: npx prettier --check '**/*'
+
+      - name: Format markdown with prettier
+        run: npx prettier --prose-wrap always --check '**/*.md' '*.md'
