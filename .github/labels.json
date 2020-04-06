@@ -100,6 +100,11 @@
     "description": "Status: This issue or pull request is not well-formed."
   },
   {
+    "name": "S-speculative",
+    "color": "d3dddd",
+    "description": "Status: This is just an idea."
+  },
+  {
     "name": "S-wip",
     "color": "d3dddd",
     "description": "Status: This pull request is a work in progress."
