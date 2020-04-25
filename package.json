@@ -29,6 +29,8 @@
   },
   "scripts": {
     "fmt": "npx prettier --write '**/*'",
-    "fmt:md": "npx prettier --prose-wrap always --write '**/*.md' '*.md'"
+    "fmt:all": "npm run fmt && npm run fmt:md && npm run fmt:yaml",
+    "fmt:md": "npx prettier --prose-wrap always --write '**/*.md'",
+    "fmt:yaml": "npx prettier --prose-wrap always --write '**/*.{yaml,yml}'"
   }
 }
