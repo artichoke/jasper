@@ -2,10 +2,10 @@ name: Audit
 on:
   push:
     branches:
-      - master
+      - trunk
   pull_request:
     branches:
-      - master
+      - trunk
   schedule:
     - cron: "0 0 * * TUE"
 jobs:
