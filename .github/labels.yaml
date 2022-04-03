@@ -54,10 +54,12 @@
   description: "Call for participation: Writing correctness tests."
 - name: "O-wasm-emscripten"
   color: "6e6ec0"
-  description: "Target: support for building the `wasm32-unknown-emscripten` target."
+  description:
+    "Target: support for building the `wasm32-unknown-emscripten` target."
 - name: "O-wasm-unknown"
   color: "6e6ec0"
-  description: "Target: support for building the `wasm32-unknown-unknown` target."
+  description:
+    "Target: support for building the `wasm32-unknown-unknown` target."
 - name: "O-wasm-wasi"
   color: "6e6ec0"
   description: "Target: support for building the `wasm32-wasi` target."
