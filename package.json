@@ -19,7 +19,7 @@
   ],
   "repository": "github:artichoke/jasper",
   "devDependencies": {
-    "prettier": "^3.1.1"
+    "prettier": "^3.2.2"
   },
   "eslintConfig": {
     "env": {
