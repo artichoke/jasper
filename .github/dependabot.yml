@@ -13,10 +13,10 @@ updates:
       - lopopolo
     labels:
       - A-deps
-  - package-ecosystem: npm
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: daily
+      interval: "monthly"
     groups:
       npm-deps:
         patterns:
